@@ -7,14 +7,15 @@
   <packaging>jar</packaging>
   <description>Minecraft chunk manager Java API</description>
   <properties>
-  	<project.author>Taufiq Hoven</project.author>
+    <project.author>Taufiq Hoven</project.author>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
-  	<dependency>
-  		<groupId>carrit</groupId>
-  		<artifactId>carrit</artifactId>
-  		<version>0.1</version>
-  	</dependency>
+    <dependency>
+      <groupId>carrit</groupId>
+      <artifactId>carrit</artifactId>
+      <version>0.1</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>${project.name}</finalName>
